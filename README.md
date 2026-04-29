@@ -1,7 +1,17 @@
-# AI Data Agent Platform (Production-style Demo)
+# AI Data Agent Platform 
 
 ## Overview
 A multi-agent LLM system for automated data pipeline generation, schema inference, and analytics.
+
+## Architecture
+- agents/: individual agent logic
+- core/: orchestrator
+- services/: token + logging simulation
+- data/: sample input
+- logs/: runtime logs
+
+## Run
+python app.py
 
 ## Architecture
 - Parser Agent
