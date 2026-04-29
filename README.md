@@ -1,4 +1,5 @@
-# AI Data Agent Platform (Production-style Demo)
+# Production-grade Multi-Agent Data Pipeline powered by LLMs
+# AI Data Agent Platform 
 
 ## Overview
 A multi-agent LLM system for automated data pipeline generation, schema inference, and analytics.
