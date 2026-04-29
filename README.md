@@ -1,14 +1,38 @@
-# AI Data Agent Platform
+# AI Data Agent Platform (Production-style Demo)
 
-An AI-driven multi-agent system for automated data parsing, schema generation, and analytics.
+## Overview
+A multi-agent LLM system for automated data pipeline generation, schema inference, and analytics.
+
+## Architecture
+- Parser Agent
+- Schema Agent
+- SQL Generator Agent
+- Validation Agent
+- Analysis Agent
+
+## Workflow
+1. Input raw JSON logs
+2. Parse and infer schema
+3. Generate SQL
+4. Validate results
+5. Output structured analytics
 
 ## Features
-- Multi-agent workflow (Parser, Schema, SQL, Validator)
-- Handles semi-structured JSON logs
-- Auto-generates SQL & reports
+- Multi-agent orchestration
+- Long-chain reasoning simulation
+- Token-heavy processing simulation
+- Extensible architecture
 
-## Demo Flow
-Input JSON -> Parse -> Generate Schema -> SQL -> Validate -> Output
+## Example
+Run:
+```bash
+python main.py
+```
 
-## Usage
-Mock demo for showcase purposes.
+## Output
+- Parsed schema
+- Generated SQL
+- Validation report
+
+## Token Simulation
+Each run simulates ~5k–10k token usage across agents.
